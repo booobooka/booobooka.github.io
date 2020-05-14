@@ -327,7 +327,7 @@ body {
   opacity: 1;
 }
 
-.portfolio__item:hover .portfolio__hover-link, .portfolio__item:active .portfolio__hover-link {
+.portfolio__item:hover .portfolio__hover-text, .portfolio__item:active .portfolio__hover-text {
   right: 0;
 }
 
@@ -349,15 +349,12 @@ body {
   opacity: 0;
 }
 
-.portfolio__hover-link {
+.portfolio__hover-text {
   position: absolute;
-  right: -100%;
+  right: -150%;
   bottom: 70px;
-  display: block;
-  max-width: 100%;
   padding: 40px 10px;
   color: #e2e2e2;
-  text-decoration: none;
   text-align: center;
   line-height: 2.0em;
   font-size: 18px;
