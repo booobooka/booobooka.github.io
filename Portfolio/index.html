@@ -17,7 +17,15 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="header__nav slideInLeft animated">
+            <div class="header__hamburger">
+                <div class="wrapper-menu">
+                    <div class="line-menu half start"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu half end"></div>
+                </div>
+            </div>
+            
+            <nav class="header__nav fadeIn animated">
                 <ul class="header__menu">
                     <li class="header__menu-item">
                         <a href="" class="header__menu-link" a="href">Главная</a>
@@ -36,16 +44,16 @@
                     </li>
                 </ul>
             </nav>
-            <div class="header__title slideInRight animated">Меня зовут Дмитрий, я Junior Front-end разработчик
+            <div class="header__title fadeIn animated">Меня зовут Дмитрий, я Junior Front-end разработчик
             </div>
-            <div class="header__subtitle slideInLeft animated">Давайте создавать нечто особенное вместе</div>
+            <div class="header__subtitle fadeIn animated">Давайте создавать нечто особенное вместе</div>
             <div class="header__scroll-icon"></div>
         </div>
     </header>
     <main>
         <section class="slider">
             <div class="container">
-                <div class="slider__inner slideInRight animated">
+                <div class="slider__inner wow slideInRight animated">
                     <div class="slider__item">
                         <div class="slider__slide">
                             <div class="slider__technology">
@@ -99,12 +107,35 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio wow slideInLeft animated">
             <div class="container">
                 <div class="portfolio__title common-title">Портфолио</div>
+                <div class="portfolio__items">
+                    <div class="portfolio__item portfolio__item--vegan" style="background-image: url(images/vegan.jpg);">
+                        <div class="portfolio__hover-effect">
+                            <a class="portfolio__hover-link" href="#" >
+                              <p class="portfolio__hover-text" >Сайт для вегетарианского ресторана<p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__item" style="background-image: url(images/realt.jpg);">
+                        <div class="portfolio__hover-effect">
+                            <a class="portfolio__hover-link" href="https://realtplus.000webhostapp.com/" >
+                              <p class="portfolio__hover-text" >Сайт агенства недвижимости<p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__item" style="background-image: url(images/mart.jpg);">
+                        <div class="portfolio__hover-effect">
+                            <a class="portfolio__hover-link" href="#" >
+                              <p class="portfolio__hover-text" >Сайт для интернет-магазина ( маркетплейса )<p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills wow slideInLeft animated">
             <div class="container">
                 <div class="skills__title common-title">Навыки</div>
                 <div class="skills__text">Я разрабатываю веб-сайты с помощью применения технологий HTML5, CSS3,
@@ -142,7 +173,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services slideInRight wow animated">
             <div class="container">
                 <div class="services__title common-title">Услуги</div>
                 <div class="services__items">
@@ -154,9 +185,9 @@
                     </div>
                     <div class="services__item">
                         <img class="services__icon" src="images/icons/web.svg">
-                        <div class="services__item-title">Правка верстки</div>
+                        <div class="services__item-title">Поддержка сайтов</div>
                         <p class="services__text">Правка и доработка верстки ваших существующих проектов, подключение
-                            плагинов, анимаций в ваши проекты.</p>
+                            плагинов, анимаций в ваши проекты, поддержка существующих проектов, SEO оптимизация.</p>
                     </div>
                 </div>
             </div>
@@ -173,7 +204,7 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__tel">
-                    <img class="footer__social-icon" src="images/icons/phone.svg" alt="phone">
+                    <img class="footer__social-icon footer__social-icon--tel" src="images/icons/phone.svg" alt="phone">
                     <a class="footer__tel-link" href="tel:380731539961">+380731539961</a>
                 </div>
                 <div class="footer__social-icons">
