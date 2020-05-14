@@ -149,7 +149,7 @@ body {
 .header__scroll-icon {
   position: absolute;
   border: 3px solid #fff;
-  top: 80%;
+  margin-top: 220px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
