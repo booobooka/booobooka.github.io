@@ -20,7 +20,7 @@
         <div class="preloader__image"></div>
     </div>
 
-    <header class="header">
+    <header class="header" id="main">
         <div class="container">
             <div class="header__hamburger">
                 <div class="wrapper-menu">
@@ -33,19 +33,19 @@
             <nav class="header__nav fadeIn animated">
                 <ul class="header__menu">
                     <li class="header__menu-item">
-                        <a href="" class="header__menu-link" a="href">Главная</a>
+                        <a href="#main" class="header__menu-link">Главная</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="" class="header__menu-link" a="href">Портфолио</a>
+                        <a href="#poortfolio" class="header__menu-link">Портфолио</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="" class="header__menu-link" a="href">Навыки</a>
+                        <a href="#skiills" class="header__menu-link">Навыки</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="" class="header__menu-link" a="href">Услуги</a>
+                        <a href="#servicess" class="header__menu-link">Услуги</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="" class="header__menu-link" a="href">Контакты</a>
+                        <a href="#contact" class="header__menu-link">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -112,35 +112,32 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio wow slideInLeft animated">
+        <section class="portfolio wow slideInLeft animated" id="poortfolio">
             <div class="container">
                 <div class="portfolio__title common-title">Портфолио</div>
                 <div class="portfolio__items">
-
-                    <a href="#" class="portfolio__item portfolio__item--vegan"
-                        style="background-image: url(images/vegan.jpg);">
+                    <a class="portfolio__item portfolio__item--vegan" href="https://realtplus.000webhostapp.com/" style="background-image: url(images/realt.jpg);">
+                        <div class="portfolio__hover-effect">
+                            <p class="portfolio__hover-text">Сайт агенства недвижимости
+                            <p>
+                        </div>
+                    </a>
+                    <a class="portfolio__item" href="https://booobooka.github.io/VeganRestaurant/"  style="background-image: url(images/vegan.jpg);">
                         <div class="portfolio__hover-effect">
                             <p class="portfolio__hover-text">Сайт для вегетарианского ресторана
                             <p>
                         </div>
                     </a>
-
-
-                    <a href="https://realtplus.000webhostapp.com/" class="portfolio__item"
-                        style="background-image: url(images/realt.jpg);">
+                    <a class="portfolio__item" href="https://github.com/booobooka/MartPlace"  style="background-image: url(images/mart.jpg);">
                         <div class="portfolio__hover-effect">
-                            <p class="portfolio__hover-text">Сайт агенства недвижимости<p>
-                        </div>
-                    </a>
-                    <a href="#" class="portfolio__item" style="background-image: url(images/mart.jpg);">
-                        <div class="portfolio__hover-effect">
-                            <p class="portfolio__hover-text">Сайт для интернет-магазина ( маркетплейса )<p>
+                            <p class="portfolio__hover-text">Сайт для интернет-магазина ( маркетплейса )
+                            <p>
                         </div>
                     </a>
                 </div>
             </div>
         </section>
-        <section class="skills wow slideInLeft animated">
+        <section class="skills wow slideInLeft animated" id="skiills">
             <div class="container">
                 <div class="skills__title common-title">Навыки</div>
                 <div class="skills__text">Я разрабатываю веб-сайты с помощью применения технологий HTML5, CSS3,
@@ -178,7 +175,7 @@
                 </div>
             </div>
         </section>
-        <section class="services slideInRight wow animated">
+        <section class="services slideInRight wow animated" id="servicess">
             <div class="container">
                 <div class="services__title common-title">Услуги</div>
                 <div class="services__items">
@@ -197,7 +194,7 @@
                 </div>
             </div>
         </section>
-        <section class="location">
+        <section class="location" id="contact">
             <div class="container">
                 <div class="location__circle">
                     <div class="location__small-circle"></div>
@@ -213,13 +210,13 @@
                     <a class="footer__tel-link" href="tel:380731539961">+380731539961</a>
                 </div>
                 <div class="footer__social-icons">
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="https://t.me/eye_of_the_ocean">
                         <img class="footer__social-icon" src="images/icons/telegram.svg" alt="telegram">
                     </a>
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="https://www.instagram.com/eye_of_the_ocean/">
                         <img class="footer__social-icon" src="images/icons/instagram.svg" alt="telegram">
                     </a>
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="https://github.com/booobooka">
                         <img class="footer__social-icon" src="images/icons/github.svg" alt="telegram">
                     </a>
                 </div>
