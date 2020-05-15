@@ -28,5 +28,12 @@ $(function() {
             $('.wrapper-menu').on('click', function(){
               $('.header__menu').slideToggle();
             });
-          
+            
+            $(window).on('load', function () {
+              $('body').addClass('loaded_hiding');
+              window.setTimeout(function () {
+                $('body').addClass('loaded');
+                $('body').removeClass('loaded_hiding');
+              }, 500);
+            });
 });
