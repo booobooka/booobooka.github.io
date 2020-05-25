@@ -336,6 +336,10 @@ body {
   margin-bottom: 30px;
 }
 
+.portfolio__item--delivery {
+  margin-right: 50px;
+}
+
 .portfolio__hover-effect {
   position: absolute;
   top: 0;
