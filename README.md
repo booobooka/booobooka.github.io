@@ -1,2 +1,2 @@
 # booobooka.github.io
-booobooka.github.io/Portfolio
+booobooka.github.io/Portfolio/
