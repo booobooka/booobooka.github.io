@@ -1,5 +1,10 @@
 /*** uncss> filename: css/style.css ***/
-
+#MDSwitch {
+    display: none !important;
+}
+.righttxt p {
+    text-align: justify !important;
+}
 .comment-system {
     font-size: 14px;
 }

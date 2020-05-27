@@ -8,85 +8,10 @@
     <script>window.Exit.enable("http://webinternetprofit.com/earnwealth-drp", "#ExitPop", false, false)</script>
     <img src="https://s3.amazonaws.com/financiallyhealthy/checkoutimages/20off.jpg" style="display:none" id="ExitPop" border="0">-->
 
-    <style>
-        #MDSwitch {
-            display: none !important;
-        }
-    </style>
-    <script type="text/javascript" src="http://buyrightchannel.com/css/jquery-2.js"></script>
-    <script type="text/javascript" src="css/jquery-scrolltofixed.js"></script>
-    <script type="text/javascript" src="http://buyrightchannel.com/css/jwplayer.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(
-            function () {
-                jQuery('a').attr('a href', 'a href="<?= $clickUrl; ?>" target="_blank"');
-            });
-        $(document).ready(function () {
-            $('#right-content').scrollToFixed({ marginTop: 90, limit: 13600, zIndex: 0 });
-        });
-    </script>
     <meta name="viewport" content="width=1100" />
     <meta name="MobileOptimized" content="1100" />
     <meta content="NOINDEX, NOFOLLOW" name="ROBOTS">
     <meta content="noindex" name="googlebot">
-    <script language="JavaScript" src="http://buyrightchannel.com/css/javascript.gp" type="text/javascript"></script>
-    <script type="text/javascript">
-        var city = geoplugin_city();
-
-        if (city == '') {
-            city = "American";
-        };
-
-        var state = geoplugin_region();
-        if (state == '') {
-            state = "Arizona";
-        };
-
-        function convert_state(name, to) {
-            var name = name.toUpperCase();
-            var states = new Array({ 'name': 'Alabama', 'abbrev': 'AL' }, { 'name': 'Alaska', 'abbrev': 'AK' },
-                { 'name': 'Arizona', 'abbrev': 'AZ' }, { 'name': 'Arkansas', 'abbrev': 'AR' }, { 'name': 'California', 'abbrev': 'CA' },
-                { 'name': 'Colorado', 'abbrev': 'CO' }, { 'name': 'Connecticut', 'abbrev': 'CT' }, { 'name': 'Delaware', 'abbrev': 'DE' },
-                { 'name': 'Florida', 'abbrev': 'FL' }, { 'name': 'Georgia', 'abbrev': 'GA' }, { 'name': 'Hawaii', 'abbrev': 'HI' },
-                { 'name': 'Idaho', 'abbrev': 'ID' }, { 'name': 'Illinois', 'abbrev': 'IL' }, { 'name': 'Indiana', 'abbrev': 'IN' },
-                { 'name': 'Iowa', 'abbrev': 'IA' }, { 'name': 'Kansas', 'abbrev': 'KS' }, { 'name': 'Kentucky', 'abbrev': 'KY' },
-                { 'name': 'Louisiana', 'abbrev': 'LA' }, { 'name': 'Maine', 'abbrev': 'ME' }, { 'name': 'Maryland', 'abbrev': 'MD' },
-                { 'name': 'Massachusetts', 'abbrev': 'MA' }, { 'name': 'Michigan', 'abbrev': 'MI' }, { 'name': 'Minnesota', 'abbrev': 'MN' },
-                { 'name': 'Mississippi', 'abbrev': 'MS' }, { 'name': 'Missouri', 'abbrev': 'MO' }, { 'name': 'Montana', 'abbrev': 'MT' },
-                { 'name': 'Nebraska', 'abbrev': 'NE' }, { 'name': 'Nevada', 'abbrev': 'NV' }, { 'name': 'New Hampshire', 'abbrev': 'NH' },
-                { 'name': 'New Jersey', 'abbrev': 'NJ' }, { 'name': 'New Mexico', 'abbrev': 'NM' }, { 'name': 'New York', 'abbrev': 'NY' },
-                { 'name': 'North Carolina', 'abbrev': 'NC' }, { 'name': 'North Dakota', 'abbrev': 'ND' }, { 'name': 'Ohio', 'abbrev': 'OH' },
-                { 'name': 'Oklahoma', 'abbrev': 'OK' }, { 'name': 'Oregon', 'abbrev': 'OR' }, { 'name': 'Pennsylvania', 'abbrev': 'PA' },
-                { 'name': 'Rhode Island', 'abbrev': 'RI' }, { 'name': 'South Carolina', 'abbrev': 'SC' }, { 'name': 'South Dakota', 'abbrev': 'SD' },
-                { 'name': 'Tennessee', 'abbrev': 'TN' }, { 'name': 'Texas', 'abbrev': 'TX' }, { 'name': 'Utah', 'abbrev': 'UT' },
-                { 'name': 'Vermont', 'abbrev': 'VT' }, { 'name': 'Virginia', 'abbrev': 'VA' }, { 'name': 'Washington', 'abbrev': 'WA' },
-                { 'name': 'West Virginia', 'abbrev': 'WV' }, { 'name': 'Wisconsin', 'abbrev': 'WI' }, { 'name': 'Wyoming', 'abbrev': 'WY' }
-            );
-            var returnthis = false;
-            $.each(states, function (index, value) {
-                if (to == 'name') {
-                    if (value.abbrev == name) {
-                        returnthis = value.name;
-                        return false;
-                    }
-                } else if (to == 'abbrev') {
-                    if (value.name.toUpperCase() == name) {
-                        returnthis = value.abbrev;
-                        return false;
-                    }
-                }
-            });
-            return returnthis;
-        }
-
-        var FullState = convert_state(state, "name");
-
-        $(document).ready(function () {
-            $(".state").html(FullState);
-            $(".city").html(city);
-        });
-
-    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -95,21 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .righttxt p {
-            text-align: justify !important;
-        }
-    </style>
-    <script>
-        function today() {
-            var mydate = new Date();
-            var dayarray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            var montharray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-            document.write("" + dayarray[mydate.getDay()] + ", " + montharray[mydate.getMonth()] + " "
-                + mydate.getDate() + ", " + mydate.getFullYear());
-        }
-    </script>
     <link rel="stylesheet" type="text/css" href="css/utils.min.css">
     <script src="https://s3.amazonaws.com/conceptweb/offer_scripts/utils.min.js"></script>
     <script>window.Exit.enable("https://overwatchtraffic.offerspace.com/?router=33B67F785CCB410DA47CC0A1518617304614", "#ExitPop", false, false)</script>
@@ -341,10 +251,7 @@
                             <div class="ad-sponsor">
                                 <div class="ad-container-no-edit sponsor" id="sponsor-ad-slot-0"></div>
                             </div>
-                            <script type="text/javascript">
-                                today();
-
-                            </script> | <i class="text-by"> By</i> <a class="article-byline tracked-offpage"
+                            <i class="text-by"> By</i> <a class="article-byline tracked-offpage"
                                 data-track-category="Article Page" data-track-action="Tap Byline"
                                 data-track-label="/contributor/joyce-chen" target="_blank">Everly Smith</a><br>
                             <span class="sue-photo-panel-head"><img src="images/mk2.jpg"
@@ -356,10 +263,6 @@
                                 style="font-size:13px;margin-bottom:20px">
                                 <div class="su-heading-inner">
                                     OK USA | Alvina, a mom of two from Texas, went viral with her weight loss story.
-                                    <script type="text/javascript">
-                                        today();
-
-                                    </script>
                                 </div>
                             </div>
                             <p style="text-align: left;">
@@ -834,10 +737,6 @@
                                         <span style="color: #ffef1e;">
                                             As of
                                             <span style="color: #ffffff;">
-                                                <script type="text/javascript">
-                                                    today();
-
-                                                </script>
                                             </span>
                                             , <span style="font-size:18px">There Are Less Than <a
                                                     href="<?= $clickUrl; ?>" target="_blank"><span
@@ -867,7 +766,6 @@
                                 <p>
                                     <span class="small">
                                         Special Risk Free Discount Promotion Ends On
-                                        <script type="text/javascript">today();</script>
                                     </span>
                                 </p>
                             </div>
@@ -1368,154 +1266,6 @@
             </div>
         </footer>
     </div>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-    <script type="text/javascript" src="js/all.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script>
-
-
-
-        jQuery(function ($) {
-            $(".cvv-link").click(function () {
-                $(this).siblings(".cvv-image").slideToggle()
-            })
-        });
-        jQuery(function ($) {
-            $(".cvv-link").click(function () {
-                $(this).parent().siblings(".cvv-image").slideToggle()
-            })
-        });
-
-        jQuery(function ($) {
-            $('a[href^="#"]').click(function () {
-                var target = $(this).attr('href');
-                $('html, body').animate({ scrollTop: $(target).offset().top }, 1000);
-                return false;
-            });
-        });
-
-
-        jQuery(function ($) {
-            var mydate = new Date();
-            var montharray = [
-                "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
-            $('.date-container').text(mydate.getDate() + " " + montharray[mydate.getMonth()] + " "
-                + " " + mydate.getFullYear());
-        });
-
-
-
-
-
-        if ($(window).width() < 768) {
-            jQuery(function ($) {
-                $('a[href^="#formTop"]').click(function () {
-                    var target = $(this).attr('href');
-                    $('html, body').animate({ scrollTop: $(target).offset().top }, 1000);
-                    return false;
-                });
-            });
-
-        }
-
-        jQuery(function ($) {
-            $(".navbar-toggle").click(function () {
-                $(this).parent().toggleClass("dropped");
-                if ($('.navbar-collapse').css('display') == 'none') {
-                    $('.navbar-collapse').animate({ height: 'show' }, 400);
-                }
-                else {
-                    $('.navbar-collapse').animate({ height: 'hide' }, 400);
-                }
-            });
-        });
-
-        jQuery(function ($) {
-            var OpenPopupLink = $('a.open-popup-link');
-            var ClosePopupLink = $('a.close-popup-link');
-            var PopupWrapper = $('.popup-wrapper');
-            OpenPopupLink.click(function () {
-                var clickId = this.id;
-                $('#popup-' + clickId).fadeIn(300);
-                PopupWrapper.fadeIn(300);
-                $('body').css('overflow', 'auto').css('height', '100%');
-            });
-            ClosePopupLink.click(function () {
-                $(this).parents('.popup').fadeOut(300);
-                PopupWrapper.fadeOut(300);
-                $('body').css('overflow', 'auto').css('height', 'auto');
-            });
-            $(document).keydown(function (eventObject) {
-                if ($('[id^="popup-"]').is(":visible")) {
-                    if (eventObject.which == '27') {
-                        $('[id^="popup-"]').fadeOut(300);
-                        PopupWrapper.fadeOut(300);
-                        $('body').css('overflow', 'auto').css('height', 'auto');
-                    }
-                }
-            });
-
-        });
-
-
-
-        $("a").attr("target", "_blank");
-        $('#sidebar').scrollToFixed({ marginTop: 43 });
-
-        function random(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-
-        var start = +new Date();
-        var people = random(9000, 11000);
-        var DISCOUNTs_start = random(400, 600);
-        var DISCOUNTs = DISCOUNTs_start;
-
-        var pr = $("#people-reading");
-        var tl = $("#DISCOUNTs-left");
-        var fb = $("#flash-banner");
-
-        function data() {
-            people += random(200, 500);
-
-            if (shown) {
-                if (DISCOUNTs > 50)
-                    DISCOUNTs -= random(10, 200) / 100
-                else
-                    DISCOUNTs -= random(10, 30) / 100
-
-                DISCOUNTs = Math.max(5, DISCOUNTs);
-                tl.text(Math.floor(DISCOUNTs));
-            }
-
-            pr.text(people);
-
-            if (DISCOUNTs < 50) fb.addClass("flashing");
-        }
-
-        var shown = false;
-        var ts = $("#trails-start");
-        var hT = ts.offset().top;
-        var hH = ts.outerHeight();
-        var wH = $(window).height();
-
-        var elH = $(".container").css("position") === "fixed" ? $(".container") : $(window);
-
-        elH.scroll(function () {
-            if (shown) return;
-
-            var wS = elH.scrollTop();
-
-            if (wS > hT + hH - wH) {
-                shown = true;
-                $("#trending").removeClass("hidden-DISCOUNTs");
-            }
-        });
-
-        data();
-        window.setInterval(data, 1000);
-    </script>
 </body>
 
 </html>
