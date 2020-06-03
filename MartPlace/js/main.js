@@ -5,8 +5,8 @@ $(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    prevArrow: '<button class="slick-arrow slick-prev"><img src="..//images/icons/lnr-chevron-left.svg"></button>',
-    nextArrow: '<button class="slick-arrow slick-next"><img src="..//images/icons/lnr-chevron-right.svg"></button>',
+    prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/lnr-chevron-left.svg"></button>',
+    nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/lnr-chevron-right.svg"></button>',
   });
 
 
@@ -85,8 +85,8 @@ $('.followers-feed__slider__inner').slick({
   slidesToScroll: 3,
   autoplay: false,
   variableWidth: false,
-  prevArrow: '<button class="slick-arrow slick-preve"><img src="..//images/icons/lnr-chevron-left.svg"></button>',
-  nextArrow: '<button class="slick-arrow slick-nexte"><img src="..//images/icons/lnr-chevron-right.svg"></button>',
+  prevArrow: '<button class="slick-arrow slick-preve"><img src="images/icons/lnr-chevron-left.svg"></button>',
+  nextArrow: '<button class="slick-arrow slick-nexte"><img src="images/icons/lnr-chevron-right.svg"></button>',
   responsive: [
     {
       breakpoint: 1190,
