@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'MADE Outer Sans';
-  src: url("/fonts/MADE Outer Sans Bold PERSONAL USE.otf");
+  src: url("../fonts/MADE Outer Sans Bold PERSONAL USE.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MADE Outer Sans';
-  src: url("/fonts/MADE Outer Sans Thin PERSONAL USE.otf");
+  src: url("../fonts/MADE Outer Sans Thin PERSONAL USE.otf");
   font-weight: 250;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Morganite';
-  src: url("/fonts/Morganite-Bold.ttf");
+  src: url("../fonts/Morganite-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
