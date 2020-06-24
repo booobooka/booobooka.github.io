@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'MADE Outer Sans';
-  src: url("../fonts/MADE Outer Sans Bold PERSONAL USE.otf");
+  src: url("/fonts/MADE Outer Sans Bold PERSONAL USE.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MADE Outer Sans';
-  src: url("../fonts/MADE Outer Sans Thin PERSONAL USE.otf");
+  src: url("/fonts/MADE Outer Sans Thin PERSONAL USE.otf");
   font-weight: 250;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Morganite';
-  src: url("../fonts/Morganite-Bold.ttf");
+  src: url("/fonts/Morganite-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -35,15 +35,6 @@ html {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0px 60px;
-}
-
-body {
-  background-image: url(../images/grunge.png);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -74,7 +65,7 @@ body {
   height: 18px;
   width: 60px;
   cursor: pointer;
-  margin: 7px 60px 4px 0px;
+  margin: 7px 19px 4px 0px;
 }
 
 .header__burger-wand {
