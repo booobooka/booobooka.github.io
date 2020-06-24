@@ -37,6 +37,15 @@ html {
   padding: 0px 60px;
 }
 
+body {
+  background-image: url(../images/grunge.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .header {
   min-height: 1000px;
   background-color: #000;
